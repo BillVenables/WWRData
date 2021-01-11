@@ -1047,7 +1047,25 @@
 ## #' }
 ## "Tigers"
 
-
+#' titanicPassengers
+#'
+#'
+#' @format A data frame with 891 rows and 12 columns:
+#' \describe{
+#'     \item{PassengerId}{integer: ... }
+#'     \item{Survived}{character: ... }
+#'     \item{Pclass}{character: ... }
+#'     \item{Name}{character: ... }
+#'     \item{Sex}{character: ... }
+#'     \item{Age}{integer: ... }
+#'     \item{SibSp}{integer: ... }
+#'     \item{Parch}{integer: ... }
+#'     \item{Ticket}{character: ... }
+#'     \item{Fare}{numeric: ... }
+#'     \item{Cabin}{character: ... }
+#'     \item{Embarked}{character: ... }
+#' }
+"titanicPassengers"
 
 #' vinho_verde
 #'
