@@ -122,22 +122,49 @@
 #'
 #' @format A data frame with 506 rows and 14 columns:
 #' \describe{
-#'     \item{crim}{numeric: ... }
-#'     \item{zn}{numeric: ... }
-#'     \item{indus}{numeric: ... }
-#'     \item{chas}{integer: ... }
-#'     \item{nox}{numeric: ... }
-#'     \item{rm}{numeric: ... }
-#'     \item{age}{numeric: ... }
-#'     \item{dis}{numeric: ... }
-#'     \item{rad}{integer: ... }
-#'     \item{tax}{numeric: ... }
-#'     \item{ptratio}{numeric: ... }
-#'     \item{black}{numeric: ... }
-#'     \item{lstat}{numeric: ... }
-#'     \item{medv}{numeric: ... }
+#'     \item{crim}{numeric: per capita crime rate by town }
+#'     \item{zn}{numeric: proportion of residential land zoned for lots over 25,000 sq.ft }
+#'     \item{indus}{numeric: proportion of non-retail business acres per town }
+#'     \item{chas}{factor: Charles River dummy variable (= 1 if tract bounds river; 0 otherwise) }
+#'     \item{nox}{numeric: nitric oxides concentration (parts per 10 million) }
+#'     \item{rm}{numeric: average number of rooms per dwelling}
+#'     \item{age}{numeric: proportion of owner-occupied units built prior to 1940}
+#'     \item{dis}{numeric: weighted distances to five Boston employment centres }
+#'     \item{rad}{integer: index of accessibility to radial highways }
+#'     \item{tax}{integer: full-value property-tax rate per USD 10,000 }
+#'     \item{ptratio}{numeric: pupil-teacher ratio by town }
+#'     \item{black}{numeric: 1000(B - 0.63)^2 where B is the proportion of blacks by town }
+#'     \item{lstat}{numeric: percentage of lower status of the population }
+#'     \item{medv}{numeric: median value of owner-occupied homes in USD 1000's }
 #' }
 "Boston"
+
+#' BostonHousing2
+#'
+#'
+#' @format A data frame with 506 rows and 19 columns:
+#' \describe{
+#'     \item{town}{factor: name of town }
+#'     \item{tract}{integer: census tract }
+#'     \item{lon}{numeric: longitude of census tract }
+#'     \item{lat}{numeric: latitude of census tract }
+#'     \item{medv}{numeric: median value of owner-occupied homes in USD 1000's }
+#'     \item{cmedv}{numeric: corrected median value of owner-occupied homes in USD 1000's }
+#'     \item{crim}{numeric: per capita crime rate by town }
+#'     \item{zn}{numeric: proportion of residential land zoned for lots over 25,000 sq.ft }
+#'     \item{indus}{numeric: proportion of non-retail business acres per town }
+#'     \item{chas}{factor: Charles River dummy variable (= 1 if tract bounds river; 0 otherwise) }
+#'     \item{nox}{numeric: nitric oxides concentration (parts per 10 million) }
+#'     \item{rm}{numeric: average number of rooms per dwelling}
+#'     \item{age}{numeric: proportion of owner-occupied units built prior to 1940}
+#'     \item{dis}{numeric: weighted distances to five Boston employment centres }
+#'     \item{rad}{integer: index of accessibility to radial highways }
+#'     \item{tax}{integer: full-value property-tax rate per USD 10,000 }
+#'     \item{ptratio}{numeric: pupil-teacher ratio by town }
+#'     \item{b}{numeric: 1000(B - 0.63)^2 where B is the proportion of blacks by town }
+#'     \item{lstat}{numeric: percentage of lower status of the population }
+#' }
+"BostonHousing2"
 
 
 
