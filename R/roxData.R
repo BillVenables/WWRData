@@ -141,6 +141,7 @@
 
 #' BostonHousing2
 #'
+#' Provided by the \code{mlbench} package: Machine Learning Benchmark data sets.
 #'
 #' @format A data frame with 506 rows and 19 columns:
 #' \describe{
