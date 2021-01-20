@@ -1,3 +1,3 @@
 # WWRData
 
-Data for the workshop, Working with R.
+Data for the workshop, Working with R. 
