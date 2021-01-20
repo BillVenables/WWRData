@@ -1,2 +1,3 @@
 # WWRData
-Date for WWR course
+
+Data for the workshop, Working with R.
