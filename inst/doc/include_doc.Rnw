@@ -1,0 +1,8 @@
+%\VignetteEngine{knitr::knitr}
+%\VignetteIndexEntry{German Credit Data}
+
+\documentclass{article}
+\usepackage{pdfpages}
+\begin{document}
+\includepdf[pages=-, fitpaper=true]{PDFs/German_Loan_data.pdf}
+\end{document}
